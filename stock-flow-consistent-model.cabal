@@ -25,7 +25,14 @@ source-repository head
 
 library
   exposed-modules:
+      DefaultFlows
+      Economy
+      Flow
+      FlowPairs
+      FlowType
       Lib
+      Sector
+      Stock
   other-modules:
       Paths_stock_flow_consistent_model
   hs-source-dirs:
