@@ -1,7 +1,7 @@
 module Stock where
 
 import Flow (Flow (..))
-import Sector
+import Sector (Sector)
 
 data Stock = Stock
   { sector :: Sector,
