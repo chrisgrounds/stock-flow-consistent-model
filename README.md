@@ -10,15 +10,7 @@ SFC models are a class of macroeconomic models that were developed with the inte
 
 **Consistency**: All flows in the model must come from somewhere and go somewhere - this is the main principle behind stock-flow consistency. For instance, if a household sector's income increases (a flow), there must be a corresponding increase in their bank balances (a stock) and a decrease in the stock that contributed to this flow. Conversely, if a household spends money (a flow), there should be a corresponding decrease in their bank balances and an increase in the respective stock that caused the flow.
 
-## Using This Repository
-
-This repository is a collection of tools and resources to create, manipulate, and understand SFC models. It includes:
-
-SFC Model Templates: A series of stock-flow consistent models of varying complexity. These can be used as a starting point for your own modeling projects.
-
-Documentation: Comprehensive documentation explaining the underlying theory of SFC models, as well as step-by-step guides on how to use the provided tools and templates.
-
-Simulation Tools: Tools to run simulations on SFC models and analyze the results. This can help you understand the dynamics of the model and how different sectors interact with each other.
+On this model and as implemented, a flow like "tax" is a function from Sector to Sector which changes the stock of each sector.
 
 ## Getting Started
 

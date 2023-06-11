@@ -30,7 +30,6 @@ library
       Flow
       FlowPairs
       FlowType
-      Lib
       Sector
       Stock
   other-modules:
